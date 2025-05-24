@@ -50,7 +50,7 @@ for i in range(N):
         queue.push(command[1])
     else:
         action = command_map.get(command[0])
-        if action :
+        if action:
             action()
 
 print('\n'.join(output))
